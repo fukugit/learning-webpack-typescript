@@ -1,0 +1,46 @@
+{
+  "name": "learning-webpack-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "start": "webpack-dev-server --host localhost --config ./webpack.config.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fukugit/learning-webpack-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fukugit/learning-webpack-typescript/issues"
+  },
+  "homepage": "https://github.com/fukugit/learning-webpack-typescript#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "moment": "^2.29.1",
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.3.1",
+    "postcss": "^8.2.1",
+    "postcss-loader": "^4.1.0",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.0.12",
+    "typescript": "^4.1.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
